@@ -7,7 +7,6 @@ Intelligent Systems
 import matplotlib.pyplot as plt
 from nltk import word_tokenize, NaiveBayesClassifier
 import pandas as pd
-import numpy as np
 from tweet_miner import TweetMiner
 from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
 from sklearn.model_selection import train_test_split
